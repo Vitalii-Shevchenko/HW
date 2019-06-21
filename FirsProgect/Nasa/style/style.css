@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body p {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav div {
+  background: linear-gradient(-180deg, #556f8b, #7c94b9);
+  width: 20%;
+  border: 2px solid #6f8cae;
+  padding: 5px 10px;
+  line-height: 20px;
+}
+.nav div:hover {
+  background: #98b5d3;
+}
+.nav div span {
+  color: #aaeaf1;
+  text-transform: none;
+}
+.nav div p:last-child {
+  text-transform: uppercase;
+}
+.nav div p:first-child {
+  font-size: 10px;
+}
+
+.autboardView img {
+  width: 100%;
+}
+
+.timeInFlight {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -5px;
+}
+.timeInFlight div {
+  background: linear-gradient(#556f8b, #7c94b9);
+  width: 23.3%;
+  border: 2px solid #6f8cae;
+  padding: 5px 10px;
+  line-height: 20px;
+}
+.timeInFlight div:first-child {
+  background: linear-gradient(0deg, #556f8b, #7c94b9);
+  width: 30%;
+  border: 2px solid #6f8cae;
+  padding: 5px 10px;
+  line-height: 20px;
+}
+
+.alarmWarning {
+  background: #6682a2;
+  width: 100%;
+  border: 2px solid #6f8cae;
+  display: flex;
+  justify-content: space-between;
+}
+.alarmWarning p {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
